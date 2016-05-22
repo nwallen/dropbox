@@ -14,6 +14,10 @@
 		B1A075601CEE995800B24C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A0755E1CEE995800B24C51 /* LaunchScreen.storyboard */; };
 		B1A0756B1CEE995800B24C51 /* dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A0756A1CEE995800B24C51 /* dropboxTests.swift */; };
 		B1A075761CEE995800B24C51 /* dropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A075751CEE995800B24C51 /* dropboxUITests.swift */; };
+		B1A075841CEE9F9900B24C51 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A075831CEE9F9900B24C51 /* CreateAccountRootViewController.swift */; };
+		B1A075861CEE9FA600B24C51 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A075851CEE9FA600B24C51 /* SignInRootViewController.swift */; };
+		B1A075881CEEA01A00B24C51 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A075871CEEA01A00B24C51 /* CreateAccountViewController.swift */; };
+		B1A0758A1CEEA02700B24C51 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A075891CEEA02700B24C51 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B1A075711CEE995800B24C51 /* dropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A075751CEE995800B24C51 /* dropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropboxUITests.swift; sourceTree = "<group>"; };
 		B1A075771CEE995800B24C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A075831CEE9F9900B24C51 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		B1A075851CEE9FA600B24C51 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		B1A075871CEEA01A00B24C51 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		B1A075891CEEA02700B24C51 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				B1A0755C1CEE995800B24C51 /* Assets.xcassets */,
 				B1A0755E1CEE995800B24C51 /* LaunchScreen.storyboard */,
 				B1A075611CEE995800B24C51 /* Info.plist */,
+				B1A075831CEE9F9900B24C51 /* CreateAccountRootViewController.swift */,
+				B1A075851CEE9FA600B24C51 /* SignInRootViewController.swift */,
+				B1A075871CEEA01A00B24C51 /* CreateAccountViewController.swift */,
+				B1A075891CEEA02700B24C51 /* SignInViewController.swift */,
 			);
 			path = dropbox;
 			sourceTree = "<group>";
@@ -256,6 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A075881CEEA01A00B24C51 /* CreateAccountViewController.swift in Sources */,
+				B1A075861CEE9FA600B24C51 /* SignInRootViewController.swift in Sources */,
+				B1A0758A1CEEA02700B24C51 /* SignInViewController.swift in Sources */,
+				B1A075841CEE9F9900B24C51 /* CreateAccountRootViewController.swift in Sources */,
 				B1A075581CEE995800B24C51 /* ViewController.swift in Sources */,
 				B1A075561CEE995800B24C51 /* AppDelegate.swift in Sources */,
 			);
