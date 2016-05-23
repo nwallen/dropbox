@@ -19,6 +19,7 @@
 		B1A075881CEEA01A00B24C51 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A075871CEEA01A00B24C51 /* CreateAccountViewController.swift */; };
 		B1A0758A1CEEA02700B24C51 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A075891CEEA02700B24C51 /* SignInViewController.swift */; };
 		B1A0758C1CF2201E00B24C51 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A0758B1CF2201E00B24C51 /* TermsViewController.swift */; };
+		B1A0758E1CF355E000B24C51 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A0758D1CF355E000B24C51 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B1A075871CEEA01A00B24C51 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		B1A075891CEEA02700B24C51 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B1A0758B1CF2201E00B24C51 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		B1A0758D1CF355E000B24C51 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				B1A075871CEEA01A00B24C51 /* CreateAccountViewController.swift */,
 				B1A075891CEEA02700B24C51 /* SignInViewController.swift */,
 				B1A0758B1CF2201E00B24C51 /* TermsViewController.swift */,
+				B1A0758D1CF355E000B24C51 /* SettingsViewController.swift */,
 			);
 			path = dropbox;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				B1A075581CEE995800B24C51 /* ViewController.swift in Sources */,
 				B1A075561CEE995800B24C51 /* AppDelegate.swift in Sources */,
 				B1A0758C1CF2201E00B24C51 /* TermsViewController.swift in Sources */,
+				B1A0758E1CF355E000B24C51 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
