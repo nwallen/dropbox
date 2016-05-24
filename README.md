@@ -2,7 +2,7 @@
 
 The purpose of this homework is to use Xcode to implement the flow between the screens of an application. We're going to use the techniques from this week to implement the Dropbox app from the signed out state to the basic signed in state.
 
-Time spent: `<Number of hours spent>`
+Time spent: `4`
 
 ### Features
 
@@ -21,8 +21,8 @@ Time spent: `<Number of hours spent>`
 #### Optional
 
 - [ ] Add a detail view for one of the files and implement favoriting the file.
-- [ ] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
-- [ ] You should be able to swipe through the welcome screens instead of just tapping them.
+- [x] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+- [X] You should be able to swipe through the welcome screens instead of just tapping them.
 
 #### The following **additional** features are implemented:
 
@@ -30,14 +30,14 @@ Time spent: `<Number of hours spent>`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. How could we build this using only one tab controller?
+2. Easy way to prototype a real action sheet?
 
 ### Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![dropbox](dropbox.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
