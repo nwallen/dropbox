@@ -10,8 +10,11 @@ import UIKit
 
 class CreateAccountViewController: UIViewController {
 
+    @IBOutlet weak var firstNameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstNameTextField.becomeFirstResponder()
         
         // Do any additional setup after loading the view.
     }
@@ -25,6 +28,10 @@ class CreateAccountViewController: UIViewController {
         navigationController!.popViewControllerAnimated(true)
     }
 
+    @IBAction func didTap(sender: AnyObject) {
+        view.endEditing(true)
+    }
+    
     /*
     // MARK: - Navigation
 
